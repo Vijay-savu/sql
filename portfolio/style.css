@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background: #2e335a;
+    color: white;
+}
+
+/* NAVBAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #0c0428;
+}
+
+.logo span {
+    font-size: 24px;
+}
+
+.highlight {
+    color: #fbbf24;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #fbbf24;
+}
+
+/* HOME */
+.home {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home span {
+    color: #fbbf24;
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #fbbf24;
+    border: none;
+    cursor: pointer;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    gap: 40px;
+    padding: 80px 40px;
+    align-items: center;
+}
+
+.about img {
+    border-radius: 10px;
+}
+
+/* SERVICES */
+.services {
+    padding: 80px 40px;
+    background: #3a4176;
+    text-align: center;
+}
+
+.service-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #292b52;
+    padding: 25px;
+    width: 280px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #292b52;
+    padding: 30px;
+    width: 280px;
+}
+
+/* EXPERIENCE */
+.experience {
+    background: #3a4176;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.experience-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experience-card {
+    background: #292b52;
+    padding: 25px;
+    width: 280px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #0c0428;
+    text-align: center;
+    padding: 15px;
+}
